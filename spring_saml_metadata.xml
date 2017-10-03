@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="ap-ivs" entityID="ap-ivs"><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDdDCCAzKgAwIBAgIEM9cylDALBgcqhkjOOAQDBQAwgYsxCzAJBgNVBAYTAlVTMQswCQYDVQQI
+EwJDQTESMBAGA1UEBxMJU2FuIERpZWdvMR0wGwYDVQQKExRGYWlyd2F5IFRlY2hub2xvZ2llczEd
+MBsGA1UECxMURmFpcndheSBUZWNobm9sb2dpZXMxHTAbBgNVBAMTFEZhaXJ3YXkgVGVjaG5vbG9n
+aWVzMB4XDTE3MDIyMDE3NDYyMloXDTE3MDUyMTE3NDYyMlowgYsxCzAJBgNVBAYTAlVTMQswCQYD
+VQQIEwJDQTESMBAGA1UEBxMJU2FuIERpZWdvMR0wGwYDVQQKExRGYWlyd2F5IFRlY2hub2xvZ2ll
+czEdMBsGA1UECxMURmFpcndheSBUZWNobm9sb2dpZXMxHTAbBgNVBAMTFEZhaXJ3YXkgVGVjaG5v
+bG9naWVzMIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMe
+P4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63
+xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yy
+krmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+Zx
+BxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTx
+vqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAdUt/RAOfI871zDUo62XEqFuWLvof
+FpCgjk8Kc1IAgK4jUaGxVhleC/wunShNO7lefeFRLoV6OcAzQHcaUNMhhvSYk5dsVLcKdr16lceK
+yjvTSBJxPrbNFIU+cpDzANEfshDycCCJnvmNJUiAAgV3yNdbWqCNxlILc66ea5DdIqSjITAfMB0G
+A1UdDgQWBBT2VT0D4wkN+KT5lNq/69M4C/f1czALBgcqhkjOOAQDBQADLwAwLAIUUM0e6DduM2FS
+Cj2oCzdTz8TQCAoCFGI09IihWVtwT3wsuNR+GG/54Zhk</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDdDCCAzKgAwIBAgIEM9cylDALBgcqhkjOOAQDBQAwgYsxCzAJBgNVBAYTAlVTMQswCQYDVQQI
+EwJDQTESMBAGA1UEBxMJU2FuIERpZWdvMR0wGwYDVQQKExRGYWlyd2F5IFRlY2hub2xvZ2llczEd
+MBsGA1UECxMURmFpcndheSBUZWNobm9sb2dpZXMxHTAbBgNVBAMTFEZhaXJ3YXkgVGVjaG5vbG9n
+aWVzMB4XDTE3MDIyMDE3NDYyMloXDTE3MDUyMTE3NDYyMlowgYsxCzAJBgNVBAYTAlVTMQswCQYD
+VQQIEwJDQTESMBAGA1UEBxMJU2FuIERpZWdvMR0wGwYDVQQKExRGYWlyd2F5IFRlY2hub2xvZ2ll
+czEdMBsGA1UECxMURmFpcndheSBUZWNobm9sb2dpZXMxHTAbBgNVBAMTFEZhaXJ3YXkgVGVjaG5v
+bG9naWVzMIIBtzCCASwGByqGSM44BAEwggEfAoGBAP1/U4EddRIpUt9KnC7s5Of2EbdSPO9EAMMe
+P4C2USZpRV1AIlH7WT2NWPq/xfW6MPbLm1Vs14E7gB00b/JmYLdrmVClpJ+f6AR7ECLCT7up1/63
+xhv4O1fnxqimFQ8E+4P208UewwI1VBNaFpEy9nXzrith1yrv8iIDGZ3RSAHHAhUAl2BQjxUjC8yy
+krmCouuEC/BYHPUCgYEA9+GghdabPd7LvKtcNrhXuXmUr7v6OuqC+VdMCz0HgmdRWVeOutRZT+Zx
+BxCBgLRJFnEj6EwoFhO3zwkyjMim4TwWeotUfI0o4KOuHiuzpnWRbqN/C/ohNWLx+2J6ASQ7zKTx
+vqhRkImog9/hWuWfBpKLZl6Ae1UlZAFMO/7PSSoDgYQAAoGAdUt/RAOfI871zDUo62XEqFuWLvof
+FpCgjk8Kc1IAgK4jUaGxVhleC/wunShNO7lefeFRLoV6OcAzQHcaUNMhhvSYk5dsVLcKdr16lceK
+yjvTSBJxPrbNFIU+cpDzANEfshDycCCJnvmNJUiAAgV3yNdbWqCNxlILc66ea5DdIqSjITAfMB0G
+A1UdDgQWBBT2VT0D4wkN+KT5lNq/69M4C/f1czALBgcqhkjOOAQDBQADLwAwLAIUUM0e6DduM2FS
+Cj2oCzdTz8TQCAoCFGI09IihWVtwT3wsuNR+GG/54Zhk</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8084/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:8084/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8084/saml/SSO" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="http://localhost:8084/iat/saml/SSO" index="1"/></md:SPSSODescriptor></md:EntityDescriptor>
