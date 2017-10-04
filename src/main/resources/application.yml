@@ -17,8 +17,6 @@ info:
 management:
   context-path: "/manage"
 
-api:
-  context-path: "/api"
 
 
 

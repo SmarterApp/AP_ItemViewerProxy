@@ -32,6 +32,7 @@ saml:
   spEntityId: "${SAML_SP_ENTITY_ID}"
 
 zuul:
+  ignoredPatterns: "/manage/**,/saml/**"
   host:
     socket-timeout-millis: 30000
   routes:
