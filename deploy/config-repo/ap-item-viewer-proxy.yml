@@ -1,0 +1,24 @@
+management:
+  security:
+    enabled: false
+
+saml:
+  keyStoreFile: "binary-http://configuration-service/ap-item-viewer-proxy/default/master/@REPLACE@"
+  keyStorePassword: "{cipher}@REPLACE@"
+  privateKeyEntryAlias: "ap-iat-sp"
+  privateKeyEntryPassword: "{cipher}@REPLACE@"
+  idpMetadataUrl: "@REPLACE@"
+  spEntityId: "@REPLACE@"
+  entityBaseUrl: "@REPLACE@"
+  load-balance:
+    enabled: true
+    hostname: "@REPLACE@"
+
+zuul:
+  ignoredPatterns: "/manage/**,/saml/**"
+  host:
+    socket-timeout-millis: 60000
+  routes:
+    preview:
+      path: /**
+      url: http://ap-ivs-service/
