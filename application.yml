@@ -43,10 +43,6 @@ zuul:
 logging:
   level:
     org:
-      springframework:
-        web: DEBUG
-        security:
-          saml: DEBUG
       opentestsystem:
         ap:
-          ivproxy: DEBUG
+          ivproxy: "debug"
